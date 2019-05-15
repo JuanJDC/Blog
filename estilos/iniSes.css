@@ -1,0 +1,257 @@
+body{
+	background-image: url('imagenes/cuadros.jpg');
+	font-family: 'Roboto', sans-serif;
+	background-repeat: repeat;	
+	font-family: 'Roboto', sans-serif; 
+	text-shadow: -2px 2px 20px rgb(50, 50, 50)
+}
+
+.encabezado{
+	background-color: rgba(255,255,255,0.7);
+	height: 50px;
+	overflow:hidden;
+}
+.salir{
+	float: right;
+	margin-right: 20px;
+	margin-top: 15px;
+	text-decoration:none;
+	font-size: 20px;
+	color: black;
+	text-shadow: -2px 2px 20px rgb(0, 0, 0)
+}
+.salir:hover{
+	color: rgb(0,0,0);
+	text-shadow: -2px 2px 20px rgb(255, 0, 0)
+}
+.btnMenu{
+	display: inline-block;
+	float: left;
+	margin-left: 20px;
+	margin-top: 15px;
+	text-decoration:none;
+	font-size: 20px;
+	color: black;
+	text-shadow: -2px 2px 20px rgb(0, 0, 0);
+	
+}
+.btnMenu:hover{
+	color: rgb(0,0,0);
+	text-shadow: -2px 2px 20px rgb(255, 0, 0)
+	}
+.buscar{
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+	text-decoration:none;
+	font-size: 20px;
+	color: black;
+	text-shadow: -2px 2px 20px rgb(0, 0, 0)
+}
+.buscar:hover{
+	color: rgb(0,0,0);
+	text-shadow: -2px 2px 20px rgb(255, 0, 0)
+}
+.Perfil{
+	background-color: rgba(255,255,255,0.7);
+	width: 561px;
+	height: 750px;
+	margin-top: 20px;
+	display: inline-block;
+	margin-left: 	40px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 10px rgb(255, 255, 255);
+}
+.fotoPerfil{
+	width: 150px;
+	height:	150px;
+	margin: 30PX 30px 30px 45px;
+	border-radius: 75px;
+	border: 2px solid rgb(0, 0, 0);
+	box-shadow: 2px 2px 10px 0px rgb(0,0,0);
+		float: left; 
+}
+.nombre	{
+	float: left;
+	width: 300px;
+	margin: 30px 20px 25px 10px;
+	height: 160px;
+	overflow: hidden;
+}
+h1{
+	margin: 45px 0px 10px 0px;
+
+}
+h2{
+	margin: 0px 0px 0px 0px;
+}
+hr{
+	margin-left: 5%;
+	width: 90%;
+	float: left;
+	color:black;
+	border:1px solid rgb(0, 0, 0);
+
+}
+.datos{
+	margin: 20px 30px 10px 30px;
+	float: left;
+	width: 150px;
+	border: 2px solid rgb(0,0,0);
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 10px white;
+}
+
+.descripcion{
+	margin-top: 20px;
+	float: left;
+	width: 300px;
+	font-size: 12px;
+}
+.publicar{
+	float: left;
+	margin-left: 12px;
+
+}
+textarea{
+	margin-top: 20px;
+	padding: 0px;
+	width:500px; 
+	height: 180px;
+	resize: none;
+	overflow-y: scroll;
+	font-family: 'Roboto', sans-serif; 
+	box-shadow: 2px 2px 10px rgb(250,250,250);
+	border: 2px solid black;
+	border-radius: 10px;
+	text-shadow: 2px 2px 15px rgb(255, 0, 0);
+
+}
+.btnPublicar{
+	background: rgb(0,0,0);
+	color: rgb(255,255,255);
+	float: right;
+	margin-top: 20px;
+	margin-right: 30px;
+	padding: 10px;
+	font-size: 15px;
+	border-radius: 10px;
+	border:0px;
+	box-shadow: 2px 2px 10px rgb(0,0,0);
+}
+.btnPublicar:hover{
+	margin-top: 18px;
+	padding: 12px;
+	box-shadow: 2px 2px 10px rgb(0,250,0);
+}
+.Publicaciones{
+	background-color: rgba(255,255,255,0.7);
+	width: 501px;
+	height: 690px;
+	margin-top: 20px;
+	display: inline-block;
+	margin-left: 	40px;
+	border-radius: 10px;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 10px rgb(255, 255, 255);
+	overflow-y: scroll;
+}
+.refrescar{
+	background: white;
+	border-radius: 50%;
+	box-shadow: 2px 2px 20px rgb(0, 0, 0);
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	margin-top: -20px;
+	margin-left: 470px;
+}
+.refrescar:hover{
+	margin-top: -23px;
+	width: 25px;
+	height: 25px;
+}
+.ancho{
+	width: 100%;
+}
+.der{
+
+	float: right;
+	text-shadow: 2px 2px 15px rgb(150, 0, 255);
+}
+.pub{
+	float: left;
+	width: 100%;
+}
+.izq{
+	
+	float: left;
+	width: 100%;
+	text-shadow: 2px 2px 25px rgb(0, 0, 255);
+}
+.hr{
+	width: 100%;
+	margin: 0px;
+}
+.actDatos{
+	background: rgba(0,0,0,0.9);
+	padding: 50px;
+	height: 600px;
+	width: 420px;
+	position: absolute;
+	left: 70px;
+	top: 105px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 10px rgb(255, 255, 255);
+	text-align: center;
+	display: none;
+}
+.salirAct{
+	width: 20px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	margin-right: 20px;
+	margin-top: 15px;
+}
+.salirAct:hover{
+	width: 25px;
+}
+.txtActDatos{
+	display: block;
+	color: white;
+	margin-top: 30px;
+	text-align: center;
+}
+.taActDatos{
+	width: 400px;
+	text-shadow: none;
+}
+td{
+	width: 290px;
+}
+.txtAct{
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+}
+.ilumina{
+	box-shadow: 2px 2px 10px rgb(255, 255, 255);
+}
+@media only screen and (max-width: 1221px) {
+	.Perfil{
+		width: 95%;
+	}
+	.Publicaciones{
+		width: 90%;
+		font-size: 25px;
+	}
+	.refrescar{
+
+		width: 	44px;
+		height: 44px;
+
+	}
+}
